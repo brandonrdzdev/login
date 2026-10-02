@@ -24,7 +24,7 @@ namespace login
 
             if (usuario == "")
             {
-                MessageBox.Show(" Ingrese usuario ", "Validacion",
+                MessageBox.Show(" Ingrese usuario: ", "Validacion",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtUsuario.Focus();
 
@@ -33,7 +33,7 @@ namespace login
             }
             if (contraseña == "")
             {
-                MessageBox.Show(" Ingrese la contraseña ", " Validacion ",
+                MessageBox.Show(" Ingrese la contraseña: ", " Validacion ",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtPassword.Focus();
 
